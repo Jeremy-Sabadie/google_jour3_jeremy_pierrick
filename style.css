@@ -1,0 +1,156 @@
+.haut
+	{
+		width: auto; 
+		height: 30px; 
+		text-align: right;
+	}
+
+.tabhaut
+	{
+		height: 100%;
+		margin-left: auto;
+		margin-right: 0px;
+		font-family: Arial;
+		font-size: 13px;
+		height: 30px;
+	}
+
+img[src="carre.png"]
+	{
+		width: 20px
+	}
+
+.centre
+	{
+		align-items: center;
+	}
+
+.connexion
+	{ 
+		background-color: #4486f6;
+		
+	}
+
+img[src="google.svg"]
+	{
+		margin: 0 auto;
+		display: block; /*comment l'élément est affiché*/
+		width: 245px;
+		margin-top: 109px;
+	}
+
+form
+	{
+		margin: 0 auto;
+		display: block; 
+		width: auto;
+		text-align: center;
+	}
+
+input[type="text"]
+	{    
+		width: 600px;
+    	height: 40px;
+   		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border: 2px solid #eeeeee;
+		font-size: 1.2em;
+		line-height: 1.5em;
+		color: #333333;
+		letter-spacing: .01em;
+		font-style: normal;
+		font-weight: 300;
+		font-family: Arial;
+	}
+
+input[type="submit"]
+	{	
+		height: 30px;
+		background-color: #f2f2f2;
+    	border: none;
+    	color: grey;
+    	padding: 6px 20px;
+    	text-align: center;
+   	 	text-decoration: none;
+    	display: inline-block;
+   	 	font-size: 12px;
+		font-weight: bold;
+    	text-decoration-color: grey;
+    	font-family:sans-serif;
+		border-radius: 2px;
+	}
+
+input[type="sub"]
+	{	
+		height: 15px;
+		background-color: #blue;
+    	border: none;
+    	color: #ffffff;
+    	padding: 6px 20px;
+    	text-align: center;
+   	 	text-decoration: none;
+    	display: inline-block;
+   	 	font-size: 12px;
+		font-weight: bold;
+    	text-decoration-color: grey;
+    	font-family:sans-serif;
+		border-radius: 2px;
+		width: 75px;
+	}
+
+.pied
+	{
+		width: 99%;
+    	white-space: nowrap;
+    	background-color: #F2F2F2;
+    	height: 60px;
+    	position: absolute;
+    	bottom: 0px;
+	}
+
+.basgauche
+	{	
+		height: 100%;
+		float: left;
+		font-family: Arial;
+		font-size: 13px;
+	}
+
+.pays
+	{
+		color: #4b4b4b;	
+	}
+
+.piedgauche
+{
+
+}
+
+.basdroite
+	{
+		height: 100%;
+		float: right;
+		font-family: Arial;
+		font-size: 13px;
+	}
+
+.cheat
+	{
+		color: #f2f2f2
+	}
+
+td
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+a
+	{
+		color: #4b4b4b;
+		text-decoration: none;
+	}
+
+a:hover
+	{
+		text-decoration: underline;
+	}

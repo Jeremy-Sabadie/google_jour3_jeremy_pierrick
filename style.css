@@ -1,4 +1,3 @@
-/*-----------------------------Header---------------------------*/
 .haut
 	{
 		width: auto; 
@@ -16,44 +15,22 @@
 		height: 30px;
 	}
 
-/*Bouton 9 points*/
 img[src="carre.png"]
 	{
 		width: 20px
 	}
 
-/*Bouton connexion*/	
-input[type="sub"]
-	{	
-		height: 15px;
-		background-color: #blue;
-    	border: none;
-    	color: #ffffff;
-    	padding: 6px 20px;
-    	text-align: center;
-   	 	text-decoration: none;
-    	display: inline-block;
-   	 	font-size: 12px;
-		font-weight: bold;
-    	text-decoration-color: grey;
-    	font-family:sans-serif;
-		border-radius: 2px;
-		width: 75px;
+.centre
+	{
+		align-items: center;
 	}
+
 .connexion
 	{ 
 		background-color: #4486f6;
 		
 	}
-/*------------------Partie Centrale---------------------------*/	
 
-section
-	{
-		align-items: center;
-		display:inline;
-	}
-
-/*logo*/
 img[src="google.svg"]
 	{
 		margin: 0 auto;
@@ -61,10 +38,10 @@ img[src="google.svg"]
 		width: 245px;
 		margin-top: 109px;
 	}
-/*Barre de recherche*/
+
 form
 	{
-		margin: auto;
+		margin: 0 auto;
 		display: block; 
 		width: auto;
 		text-align: center;
@@ -84,9 +61,8 @@ input[type="text"]
 		font-weight: 300;
 		font-family: Arial;
 	}
-/*Boutons recherche & chance*/
 
-#rech,#chance
+input[type="submit"]
 	{	
 		height: 30px;
 		background-color: #f2f2f2;
@@ -103,30 +79,24 @@ input[type="text"]
 		border-radius: 2px;
 	}
 
-/*Bouton Afficher les éléments centraux*/
-.afficher
-		{height: 30px;
-		background-color: #f2f2f2;
+input[type="sub"]
+	{	
+		height: 15px;
+		background-color: #blue;
     	border: none;
-    	color: grey;
+    	color: #ffffff;
     	padding: 6px 20px;
     	text-align: center;
    	 	text-decoration: none;
-    	display: block;
+    	display: inline-block;
    	 	font-size: 12px;
 		font-weight: bold;
     	text-decoration-color: grey;
     	font-family:sans-serif;
 		border-radius: 2px;
-		margin:auto;
+		width: 75px;
 	}
 
-.sectionbouton
-{		justify-content:center;
-		margin-top:250px }
-
-
-/*-------------------------------Footer-----------------------------*/
 .pied
 	{
 		width: 99%;
@@ -136,7 +106,7 @@ input[type="text"]
     	position: absolute;
     	bottom: 0px;
 	}
-/*Tableau gauche*/
+
 .basgauche
 	{	
 		height: 100%;
@@ -155,7 +125,6 @@ input[type="text"]
 
 }
 
-/*Tableau gauche*/
 .basdroite
 	{
 		height: 100%;
@@ -169,8 +138,6 @@ input[type="text"]
 		color: #f2f2f2
 	}
 
-
-/*---------------------------------Global-----------------------------------------*/
 td
 	{
 		padding-left: 10px;
